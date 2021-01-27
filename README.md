@@ -1,6 +1,6 @@
 # Hello Elementor Child Theme
 
-**Contributors:** TheWebist
+**Contributors:** TheWebist  
 **Requires at least:** WordPress 4.4  
 **Tested up to:** WordPress 5.6  
 **Requires PHP:** 7.0
