@@ -28,7 +28,7 @@ Hello Elementor Child is distributed under the terms of the GNU GPL
 
 ## Changelog
 
-### 1.0
+### 1.0.0
 * Released: January 27, 2021
 
 Initial release
