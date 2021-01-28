@@ -28,6 +28,11 @@ Hello Elementor Child is distributed under the terms of the GNU GPL
 
 ## Changelog
 
+### 1.0.1
+* Released: January 27, 2021
+
+Updating email image header with image in the body of the email.
+
 ### 1.0.0
 * Released: January 27, 2021
 
