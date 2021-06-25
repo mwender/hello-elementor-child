@@ -20,3 +20,8 @@ function hello_elementor_parent_theme_enqueue_styles() {
 	);
 
 }
+
+function hello_elementor_child_setup_theme(){
+	add_theme_support( 'post-thumbnails' );
+}
+add_action( 'after_setup_theme', 'hello_elementor_child_setup_theme', 99 );
