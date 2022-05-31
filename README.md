@@ -3,7 +3,7 @@
 **Requires at least:** 5.7  
 **Tested up to:** 5.9.1  
 **Requires PHP:** 7.2  
-**Stable Tag:** 1.1.0  
+**Stable Tag:** 1.1.1  
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -14,6 +14,9 @@ Hello Elementor Child theme developed for [Oaks Ministries](https://oaksministri
 Provides additional functionality for the Oaks Ministries website.
 
 ## Changelog ##
+
+### 1.1.1 ###
+* Saving ACF JSON to `lib/acf-json`.
 
 ### 1.1.0 ###
 * Handlebars template processing with `get_alert()` for displaying Elementor alert HTML.

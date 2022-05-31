@@ -25,6 +25,7 @@ if( file_exists( OAKSMIN_THEME_PATH . 'vendor/autoload.php' ) ){
 /**
  * Load required files
  */
+require_once( OAKSMIN_THEME_PATH . 'lib/fns/acf-json-save-point.php' );
 require_once( OAKSMIN_THEME_PATH . 'lib/fns/enqueues.php' );
 require_once( OAKSMIN_THEME_PATH . 'lib/fns/options.php' );
 require_once( OAKSMIN_THEME_PATH . 'lib/fns/rest.rentals.php' );
