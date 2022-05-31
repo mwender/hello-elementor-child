@@ -26,8 +26,13 @@ if( file_exists( OAKSMIN_THEME_PATH . 'vendor/autoload.php' ) ){
  * Load required files
  */
 require_once( OAKSMIN_THEME_PATH . 'lib/fns/enqueues.php' );
+require_once( OAKSMIN_THEME_PATH . 'lib/fns/options.php' );
+require_once( OAKSMIN_THEME_PATH . 'lib/fns/rest.rentals.php' );
 require_once( OAKSMIN_THEME_PATH . 'lib/fns/setup_theme.php' );
+require_once( OAKSMIN_THEME_PATH . 'lib/fns/templates.php' );
+require_once( OAKSMIN_THEME_PATH . 'lib/fns/utilities.php' );
 require_once( OAKSMIN_THEME_PATH . 'lib/fns/woocommerce.php' );
+require_once( OAKSMIN_THEME_PATH . 'lib/fns/woocommerce.new_order.php' );
 
 /**
  * Enhanced logging.
