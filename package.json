@@ -1,0 +1,17 @@
+{
+  "name": "hello-elementor-child",
+  "version": "0.1.0",
+  "main": "Gruntfile.js",
+  "author": "TheWebist",
+  "scripts": {
+    "sassdev": "sass lib/scss/main.scss lib/css/main.css --style=expanded --embed-sources --watch",
+    "sassprod": "sass lib/scss/main.scss lib/dist/main.css --style=compressed --no-source-map"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "grunt": "^1.4.1",
+    "grunt-wp-i18n": "^1.0.3",
+    "grunt-wp-readme-to-markdown": "^2.0.1",
+    "sass": "^1.49.7"
+  }
+}

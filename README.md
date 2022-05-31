@@ -1,39 +1,22 @@
-# Hello Elementor Child Theme
-
-**Contributors:** TheWebist  
-**Requires at least:** WordPress 4.4  
-**Tested up to:** WordPress 5.6  
-**Requires PHP:** 7.0
-
+# Hello Elementor Child Theme for OaksMinistries.com #
+**Contributors:** [thewebist](https://profiles.wordpress.org/thewebist/)  
+**Requires at least:** 5.7  
+**Tested up to:** 5.9.1  
+**Requires PHP:** 7.2  
+**Stable Tag:** 1.0.1  
 **License:** GPLv2 or later  
-**License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
+**License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
-This is a child theme for extending the Hello Elementor theme.
+Hello Elementor Child theme developed for [Oaks Ministries](https://oaksministries.com).
 
-## Description
+## Description ##
 
-Hello Elementor + the Elementor plugin are a great "no code" way to build a WordPress site. However, there are times when you have to write a bit of code. In particular, some plugins primarily allow for modifying their layouts via a folder added to your theme. That's what this theme is for.
+Provides additional functionality for the Oaks Ministries website.
 
-## Frequently Asked Questions
+## Changelog ##
 
-* May I use this theme in my projects?
- 
-Sure!
+### 1.0.1 ###
+* Updating email image header with image in the body of the email.
 
-
-## Copyright
-
-Hello Elementor WordPress Theme, Copyright 2016 WordPress.org
-Hello Elementor Child is distributed under the terms of the GNU GPL
-
-## Changelog
-
-### 1.0.1
-* Released: January 27, 2021
-
-Updating email image header with image in the body of the email.
-
-### 1.0.0
-* Released: January 27, 2021
-
-Initial release
+### 1.0.0 ###
+* Initial release
