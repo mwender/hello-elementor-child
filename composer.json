@@ -1,0 +1,14 @@
+{
+    "name": "mwender/hello-elementor-child",
+    "description": "Hello Elementor Child theme for Oaks Ministries",
+    "type": "wordpress-theme",
+    "require": {
+        "zordius/lightncandy": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "Michael Wender",
+            "email": "michael@michaelwender.com"
+        }
+    ]
+}

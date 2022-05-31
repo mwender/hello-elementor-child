@@ -10,6 +10,19 @@ define( 'OAKSMIN_THEME_PATH', trailingslashit( get_stylesheet_directory( __FILE_
 define( 'OAKSMIN_THEME_URL', trailingslashit( dirname( get_stylesheet_uri( __FILE__ ) ) ) );
 
 /**
+ * Load Composer dependencies
+ */
+if( file_exists( OAKSMIN_THEME_PATH . 'vendor/autoload.php' ) ){
+  require_once OAKSMIN_THEME_PATH . 'vendor/autoload.php';
+} else {
+  add_action( 'admin_notices', function(){
+    $class = 'notice notice-error';
+    $message = __( 'Missing required Composer libraries. Please run `composer install` from the root directory of this plugin.', 'tka' );
+    printf( '<div class="%1$s"><p>%2$s</p></div>', esc_attr( $class ), esc_html( $message ) );
+  } );
+}
+
+/**
  * Load required files
  */
 require_once( OAKSMIN_THEME_PATH . 'lib/fns/enqueues.php' );
