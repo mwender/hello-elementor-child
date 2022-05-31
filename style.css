@@ -5,7 +5,7 @@ Description:    Hello Elementor child theme developed for oaksministries.com
 Author:         TheWebist
 Author URI:     https://mwender.com
 Template:       hello-elementor
-Version:        1.0.1
+Version:        1.1.0
 */
 .elementor-widget-woocommerce-my-account .e-my-account-tab__ .woocommerce-MyAccount-content-wrapper{
   border: 1px var(--sections-border-type,solid) var(--sections-border-color,#d4d4d4);
