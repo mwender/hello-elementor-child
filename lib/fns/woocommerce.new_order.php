@@ -49,3 +49,5 @@ function update_user_rentals( $order_id ){
     update_user_meta( $user_id, 'rental_products', $rental_products );
 }
 add_action( 'woocommerce_new_order', __NAMESPACE__ . '\\update_user_rentals' );
+add_action( 'woocommerce_order_status_completed', __NAMESPACE__ . '\\update_user_rentals' );
+add_action( 'woocommerce_order_status_processing', __NAMESPACE__ . '\\update_user_rentals' );
