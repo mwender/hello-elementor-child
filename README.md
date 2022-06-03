@@ -3,7 +3,7 @@
 **Requires at least:** 5.7  
 **Tested up to:** 5.9.1  
 **Requires PHP:** 7.2  
-**Stable Tag:** 1.1.2  
+**Stable Tag:** 1.1.3  
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -14,6 +14,9 @@ Hello Elementor Child theme developed for [Oaks Ministries](https://oaksministri
 Provides additional functionality for the Oaks Ministries website.
 
 ## Changelog ##
+
+### 1.1.3 ###
+* BUGFIX: Checking for `$purchased_products` array in `lib/fns/woocommerce.php::custom_video_access_content()`.
 
 ### 1.1.2 ###
 * Updating user's rentals via `woocommerce_order_status_processing` and `woocommerce_order_status_completed` hooks. Therefore, users who rent a video will have access as soon as their order enters the system under the default "Processing" order status.

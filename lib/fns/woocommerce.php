@@ -159,7 +159,7 @@ function custom_video_access_content() {
     $rental_products = [];
 
   $show_restricted_access_notification = true;
-  if( 0 < count( $purchased_products ) ):
+  if( is_array( $purchased_products ) && 0 < count( $purchased_products ) ):
     foreach( $purchased_products as $product_id => $product ){
       if( has_bought_items( $user_id, $product_id ) && ( ! in_array( $product_id, $all_bundled_products ) ) )
       {
