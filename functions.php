@@ -30,6 +30,7 @@ require_once( OAKSMIN_THEME_PATH . 'lib/fns/enqueues.php' );
 require_once( OAKSMIN_THEME_PATH . 'lib/fns/options.php' );
 require_once( OAKSMIN_THEME_PATH . 'lib/fns/rest.rentals.php' );
 require_once( OAKSMIN_THEME_PATH . 'lib/fns/setup_theme.php' );
+require_once( OAKSMIN_THEME_PATH . 'lib/fns/shortcode.hideyt.php' );
 require_once( OAKSMIN_THEME_PATH . 'lib/fns/templates.php' );
 require_once( OAKSMIN_THEME_PATH . 'lib/fns/utilities.php' );
 require_once( OAKSMIN_THEME_PATH . 'lib/fns/woocommerce.php' );
