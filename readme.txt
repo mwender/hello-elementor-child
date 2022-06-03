@@ -3,7 +3,7 @@ Contributors: TheWebist
 Requires at least: 5.7
 Tested up to: 5.9.1
 Requires PHP: 7.2
-Stable Tag: 1.2.0
+Stable Tag: 1.2.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,6 +14,9 @@ Hello Elementor Child theme developed for [Oaks Ministries](https://oaksministri
 Provides additional functionality for the Oaks Ministries website.
 
 == Changelog ==
+
+= 1.2.1 =
+* BUGFIX: Initializing `$rental_products` in `woocommerce.new_order.php::update_user_rentals()` if empty.
 
 = 1.2.0 =
 * Adding `[hideyt]` shortcode for embedding YouTube videos without "Related Content" videos at the end.

@@ -31,6 +31,8 @@ function update_user_rentals( $order_id ){
 
   // 2. Get the user's $rental_products:
   $rental_products = get_user_meta( $user_id, 'rental_products', true );
+  if( empty( $rental_products ) )
+    $rental_products = []; // Initialize $rental_products if empty.
 
   // 3. Get line-items from order:
   foreach ( $order->get_items() as  $item_key => $item_values ) {
@@ -38,7 +40,7 @@ function update_user_rentals( $order_id ){
       $product_id = $item_data['product_id'];
 
       // 4. and 5. Check if $product_id is in $rental_products and remove if "yes".
-      if( array_key_exists( $product_id, $rental_products ) ){
+      if( is_array( $rental_products ) && array_key_exists( $product_id, $rental_products ) ){
         unset( $rental_products[ $product_id ] );
         $update_rental_products = true;
       }
