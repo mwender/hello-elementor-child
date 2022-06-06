@@ -10,6 +10,11 @@ define( 'OAKSMIN_THEME_PATH', trailingslashit( get_stylesheet_directory( __FILE_
 define( 'OAKSMIN_THEME_URL', trailingslashit( dirname( get_stylesheet_uri( __FILE__ ) ) ) );
 
 /**
+ * Turn off Jetpack nags
+ */
+add_filter( 'jetpack_just_in_time_msgs', '__return_false' );
+
+/**
  * Load Composer dependencies
  */
 if( file_exists( OAKSMIN_THEME_PATH . 'vendor/autoload.php' ) ){
